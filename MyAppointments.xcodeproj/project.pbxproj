@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B57FFB583240E7D5F0A039A /* Pods_MyAppointments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04BE46EFB81DAED86C846F4 /* Pods_MyAppointments.framework */; };
+		DC06932620B4457600416BF6 /* AppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC06932520B4457600416BF6 /* AppointmentCell.swift */; };
+		DCA0341D20B652FA0012983E /* DataSercice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0341C20B652FA0012983E /* DataSercice.swift */; };
+		DCC177D220B50B52006E6217 /* MaterialDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC177D120B50B52006E6217 /* MaterialDesign.swift */; };
+		DCD3685820B2D00D00AE96AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3685720B2D00D00AE96AF /* AppDelegate.swift */; };
+		DCD3685A20B2D00D00AE96AF /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3685920B2D00D00AE96AF /* MainVC.swift */; };
+		DCD3685D20B2D00D00AE96AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD3685B20B2D00D00AE96AF /* Main.storyboard */; };
+		DCD3685F20B2D01000AE96AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD3685E20B2D01000AE96AF /* Assets.xcassets */; };
+		DCD3686220B2D01000AE96AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD3686020B2D01000AE96AF /* LaunchScreen.storyboard */; };
+		DCFC002420B2D08700FD0873 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DCFC002320B2D08700FD0873 /* data.json */; };
+		DCFC002620B2D0DF00FD0873 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC002520B2D0DF00FD0873 /* Appointment.swift */; };
+		DCFC004820B40E6A00FD0873 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC004720B40E6A00FD0873 /* CalendarVC.swift */; };
+		DCFC004A20B40F4B00FD0873 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC004920B40F4B00FD0873 /* CustomCell.swift */; };
+		DCFC004C20B41F3C00FD0873 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC004B20B41F3C00FD0873 /* CircleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E787031A1BD7C90C5EE7D73 /* Pods-MyAppointments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppointments.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppointments/Pods-MyAppointments.release.xcconfig"; sourceTree = "<group>"; };
+		A04BE46EFB81DAED86C846F4 /* Pods_MyAppointments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAppointments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC06932520B4457600416BF6 /* AppointmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCell.swift; sourceTree = "<group>"; };
+		DCA0341C20B652FA0012983E /* DataSercice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSercice.swift; sourceTree = "<group>"; };
+		DCC177D120B50B52006E6217 /* MaterialDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialDesign.swift; sourceTree = "<group>"; };
+		DCD3685420B2D00D00AE96AF /* MyAppointments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppointments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD3685720B2D00D00AE96AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCD3685920B2D00D00AE96AF /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		DCD3685C20B2D00D00AE96AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCD3685E20B2D01000AE96AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCD3686120B2D01000AE96AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCD3686320B2D01000AE96AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFC002320B2D08700FD0873 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DCFC002520B2D0DF00FD0873 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		DCFC004720B40E6A00FD0873 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		DCFC004920B40F4B00FD0873 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		DCFC004B20B41F3C00FD0873 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		DDD824C807DE8AE91C5C161A /* Pods-MyAppointments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppointments.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppointments/Pods-MyAppointments.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD3685120B2D00D00AE96AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B57FFB583240E7D5F0A039A /* Pods_MyAppointments.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C66BD12C0C38FB0A02BB9FC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDD824C807DE8AE91C5C161A /* Pods-MyAppointments.debug.xcconfig */,
+				7E787031A1BD7C90C5EE7D73 /* Pods-MyAppointments.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBB674D1A6604E85AA462CAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A04BE46EFB81DAED86C846F4 /* Pods_MyAppointments.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCA0341A20B632E00012983E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DCD3685E20B2D01000AE96AF /* Assets.xcassets */,
+				DCD3686320B2D01000AE96AF /* Info.plist */,
+				DCFC002320B2D08700FD0873 /* data.json */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DCA0341B20B652D30012983E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DCA0341C20B652FA0012983E /* DataSercice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DCD3684B20B2D00D00AE96AF = {
+			isa = PBXGroup;
+			children = (
+				DCD3685620B2D00D00AE96AF /* MyAppointments */,
+				DCD3685520B2D00D00AE96AF /* Products */,
+				C66BD12C0C38FB0A02BB9FC6 /* Pods */,
+				CBB674D1A6604E85AA462CAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD3685520B2D00D00AE96AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD3685420B2D00D00AE96AF /* MyAppointments.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD3685620B2D00D00AE96AF /* MyAppointments */ = {
+			isa = PBXGroup;
+			children = (
+				DCA0341B20B652D30012983E /* Services */,
+				DCA0341A20B632E00012983E /* Sources */,
+				DCFC002020B2D06C00FD0873 /* Model */,
+				DCFC002220B2D07700FD0873 /* Controller */,
+				DCFC002120B2D07300FD0873 /* View */,
+			);
+			path = MyAppointments;
+			sourceTree = "<group>";
+		};
+		DCFC002020B2D06C00FD0873 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC002520B2D0DF00FD0873 /* Appointment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCFC002120B2D07300FD0873 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCD3685B20B2D00D00AE96AF /* Main.storyboard */,
+				DCD3686020B2D01000AE96AF /* LaunchScreen.storyboard */,
+				DCC177D120B50B52006E6217 /* MaterialDesign.swift */,
+				DCFC004B20B41F3C00FD0873 /* CircleView.swift */,
+				DC06932520B4457600416BF6 /* AppointmentCell.swift */,
+				DCFC004920B40F4B00FD0873 /* CustomCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCFC002220B2D07700FD0873 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCD3685720B2D00D00AE96AF /* AppDelegate.swift */,
+				DCD3685920B2D00D00AE96AF /* MainVC.swift */,
+				DCFC004720B40E6A00FD0873 /* CalendarVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD3685320B2D00D00AE96AF /* MyAppointments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD3686620B2D01000AE96AF /* Build configuration list for PBXNativeTarget "MyAppointments" */;
+			buildPhases = (
+				309F329239E23C68B6BC7331 /* [CP] Check Pods Manifest.lock */,
+				DCD3685020B2D00D00AE96AF /* Sources */,
+				DCD3685120B2D00D00AE96AF /* Frameworks */,
+				DCD3685220B2D00D00AE96AF /* Resources */,
+				C809542F754B9F7A79AD8C53 /* [CP] Embed Pods Frameworks */,
+				5950CECB7F5DDCEAD17D346D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAppointments;
+			productName = MyAppointments;
+			productReference = DCD3685420B2D00D00AE96AF /* MyAppointments.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD3684C20B2D00D00AE96AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Aleksei Degtiarev";
+				TargetAttributes = {
+					DCD3685320B2D00D00AE96AF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = DCD3684F20B2D00D00AE96AF /* Build configuration list for PBXProject "MyAppointments" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCD3684B20B2D00D00AE96AF;
+			productRefGroup = DCD3685520B2D00D00AE96AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD3685320B2D00D00AE96AF /* MyAppointments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCD3685220B2D00D00AE96AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD3686220B2D01000AE96AF /* LaunchScreen.storyboard in Resources */,
+				DCD3685F20B2D01000AE96AF /* Assets.xcassets in Resources */,
+				DCD3685D20B2D00D00AE96AF /* Main.storyboard in Resources */,
+				DCFC002420B2D08700FD0873 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		309F329239E23C68B6BC7331 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAppointments-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5950CECB7F5DDCEAD17D346D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAppointments/Pods-MyAppointments-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C809542F754B9F7A79AD8C53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyAppointments/Pods-MyAppointments-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAppointments/Pods-MyAppointments-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD3685020B2D00D00AE96AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC177D220B50B52006E6217 /* MaterialDesign.swift in Sources */,
+				DCA0341D20B652FA0012983E /* DataSercice.swift in Sources */,
+				DC06932620B4457600416BF6 /* AppointmentCell.swift in Sources */,
+				DCFC004C20B41F3C00FD0873 /* CircleView.swift in Sources */,
+				DCFC002620B2D0DF00FD0873 /* Appointment.swift in Sources */,
+				DCD3685A20B2D00D00AE96AF /* MainVC.swift in Sources */,
+				DCFC004A20B40F4B00FD0873 /* CustomCell.swift in Sources */,
+				DCFC004820B40E6A00FD0873 /* CalendarVC.swift in Sources */,
+				DCD3685820B2D00D00AE96AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCD3685B20B2D00D00AE96AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD3685C20B2D00D00AE96AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCD3686020B2D01000AE96AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD3686120B2D01000AE96AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCD3686420B2D01000AE96AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCD3686520B2D01000AE96AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCD3686720B2D01000AE96AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD824C807DE8AE91C5C161A /* Pods-MyAppointments.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8822C26BQ;
+				INFOPLIST_FILE = "$(SRCROOT)/MyAppointments/Sources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = delexa.MyAppointments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCD3686820B2D01000AE96AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E787031A1BD7C90C5EE7D73 /* Pods-MyAppointments.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8822C26BQ;
+				INFOPLIST_FILE = "$(SRCROOT)/MyAppointments/Sources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = delexa.MyAppointments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD3684F20B2D00D00AE96AF /* Build configuration list for PBXProject "MyAppointments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD3686420B2D01000AE96AF /* Debug */,
+				DCD3686520B2D01000AE96AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD3686620B2D01000AE96AF /* Build configuration list for PBXNativeTarget "MyAppointments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD3686720B2D01000AE96AF /* Debug */,
+				DCD3686820B2D01000AE96AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCD3684C20B2D00D00AE96AF /* Project object */;
+}
